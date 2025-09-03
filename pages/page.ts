@@ -15,6 +15,14 @@ const Hero = () => div({
         "WHYNOTGEORGE"
     ),
     
+    p({
+        class: "text-lg sm:text-xl font-semibold text-center",
+    },
+        "My name is George, I am 20 year old independent illustrator from Europe.",
+        br(),
+        "My works mostly consist of character illustrations, fanart and original characters."
+    ),
+    
     div({
         class: "flex flex-wrap gap-2 justify-evenly w-full sm:mb-12",
     },
@@ -102,5 +110,66 @@ export const metadata = () => head({},
         rel: "stylesheet",
         href: "/index.css",
     }),
-    title({}, "hi"),
+    
+    title({}, "WhyNotGeorge"),
+    
+    meta({
+        charset: "UTF-8",
+    }),
+    
+    meta({
+        name: "viewport",
+        content: "width=device-width, initial-scale=1.0",
+    }),
+    
+    meta({
+        property: "og:title",
+    }, "WhyNotGeorge"),
+    
+    meta({
+        property: "og:description",
+        content: "My name is George, I am 20 year old independent illustrator from europe. My works mostly consist of character illustrations, fanart and original characters.",
+    }),
+    
+    meta({
+        property: "og:type",
+        content: "",
+    }),
+    
+    meta({
+        property: "og:url",
+        content: "https://whynotgeorge.art",
+    }),
+    
+    meta({
+        property: "og:image",
+        content: "/public/Illustration96.png",
+    }),
+    
+    meta({
+        property: "og:site_name",
+        content: "",
+    }),
+    
+    meta({
+        name: "twitter:card",
+        content: "",
+    }),
+    
+    meta({
+        name: "twitter:title",
+        content: "",
+    }),
+    
+    meta({
+        name: "twitter:description",
+        content: "",
+    }),
+    
+    meta({
+        name: "twitter:image",
+        content: "",
+    }),
+    
+    meta({}),
 )

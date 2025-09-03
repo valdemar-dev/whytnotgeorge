@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "name": "my-app",
+      "script": "npx",
+      "args": "prod",
+      "interpreter": "none"
+    }
+  ]
+}
+
