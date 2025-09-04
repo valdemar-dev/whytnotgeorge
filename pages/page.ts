@@ -229,7 +229,8 @@ export const metadata = () => head({},
     
     meta({
         property: "og:title",
-    }, "WhyNotGeorge"),
+        content: "WhyNotGeorge",
+    }),
     
     meta({
         property: "og:description",
