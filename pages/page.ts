@@ -60,25 +60,40 @@ const Header = () => div({
         div({
             class: "flex items-center",
         },
+        
+        a ({
+            target: "_blank",
+            href: "https://x.com/hainotogeo",
+        },
             img({
                 src: "/images/x-logo.png",
                 class: "invert-100",
                 height: 22,
                 width: 22,
             }),
-            
+        ),
+        
+        a ({
+            target: "_blank",
+            href: "https://youtube.com/@whynotgeorg",
+        },
             img({
                 src: "/images/youtube-logo.png",
                 class: "invert-100 ml-3",
                 height: 44,
                 width: 44,
             }),
-            
+        ),
+        a ({
+            target: "_blank",
+            href: "https://www.artstation.com/whynotgeorge",
+        },    
             img({
                 src: "/images/artstation-logo.svg",
                 height: 46,
                 width: 46,
             }),
+        ),
         ),
     ),
 );
