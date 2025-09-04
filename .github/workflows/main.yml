@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Check out
         uses: actions/checkout@v4
+      - name: Add CNAME for custom domain
+        run: echo "whynotgeorge.art" > .elegance/dist/CNAME
       - name: Generate content
         run: npm install
       - name: Generate content
