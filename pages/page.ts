@@ -143,12 +143,12 @@ export const metadata = () => head({},
     
     meta({
         property: "og:image",
-        content: "/public/Illustration96.png",
+        content: "https://whynotgeorge.art/works/sd.png",
     }),
     
     meta({
         property: "og:site_name",
-        content: "",
+        content: "WhyNotGeorge",
     }),
     
     meta({
