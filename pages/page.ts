@@ -233,7 +233,7 @@ export const metadata = () => head({},
     
     meta({
         property: "og:description",
-        content: "My name is George, I am 20 year old independent illustrator from europe. My works mostly consist of character illustrations, fanart and original characters.",
+        content: "Hey, I'm a 20-year-old independent illustrator based in Europe. I specialize in character illustrations, creating both fan art and original designs.",
     }),
     
     meta({
